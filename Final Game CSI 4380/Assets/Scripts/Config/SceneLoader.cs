@@ -23,13 +23,14 @@ public class SceneLoader : MonoBehaviour
             
         currentGameSceneIndex++;
     }
-    public void LoadSpaceShooter()
+    public void LoadZombieShooter()
     {
-        if (currentGameSceneIndex == 0)
-            SceneManager.LoadScene("SpaceShooterLandingScene");
-        else
-            SceneManager.LoadScene("SpaceShooterScene" + currentGameSceneIndex);
-        currentGameSceneIndex++;
+        SceneManager.LoadScene("GameSceneZS");
+        //if (currentGameSceneIndex == 0)
+        //    SceneManager.LoadScene("ZombieShooterLandingScene");
+        //else
+        //    SceneManager.LoadScene("GameSceneZS" + currentGameSceneIndex);
+        //currentGameSceneIndex++;
     }
     public void LoadBreakout()
     {
