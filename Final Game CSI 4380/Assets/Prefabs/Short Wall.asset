@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd36b1a760a15504799975e5d0c91f54, type: 3}
+  m_Name: Short Wall
+  m_EditorClassIdentifier: 
+  wall: {fileID: 643459956709129225, guid: 23d573bab1e8c2f4588e97e399d0ab2f, type: 3}
+  prefabName: ShortWall
+  wallHeight: 0.25
+  wallThickness: 0.2
