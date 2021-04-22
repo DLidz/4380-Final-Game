@@ -67,3 +67,8 @@ Final Game CSI 4380/Library/SourceAssetDB
 *.dwlt
 *.json
 *.txt
+*.log
+*.dwlt
+*.log
+*.meta
+*.json
