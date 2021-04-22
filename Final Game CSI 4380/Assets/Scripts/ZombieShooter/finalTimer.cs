@@ -9,7 +9,9 @@ public class finalTimer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float tt = t.getTime(); 
+        float tt = t.getTime();
+        if (tt > HighScores.ZombieShooterHighScore)
+            HighScores.ZombieShooterHighScore = tt;
         txt.text = tt.ToString();
         Debug.Log(tt);
     }

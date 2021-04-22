@@ -39,6 +39,7 @@ public class MainMenuController : MonoBehaviour
 
     //Timespan values for menu display
     TimeSpan PlatformerTimeConverted;
+    TimeSpan ZombieTimeConverted;
     TimeSpan Track1BestConverted;
     TimeSpan Track2BestConverted;
     TimeSpan Track3BestConverted;
@@ -48,7 +49,7 @@ public class MainMenuController : MonoBehaviour
     {
         ConvertRawTimesToTimeSpan();
         PlatFormerHighScore.SetText("Best Time: " + PlatformerTimeConverted.ToString("mm':'ss"));
-        ZombieShooterHighScore.SetText("High Score: " + HighScores.ZombieShooterHighScore);
+        ZombieShooterHighScore.SetText("High Score: " + ZombieTimeConverted.ToString("mm':'ss"));
         BreakoutHighScore.SetText("High Score: " + HighScores.BreakoutHighScore);
         Track1BestTime.SetText(Track1BestConverted.ToString("m':'ss':'ff"));
         Track2BestTime.SetText(Track2BestConverted.ToString("m':'ss':'ff"));
@@ -66,6 +67,7 @@ public class MainMenuController : MonoBehaviour
     private void ConvertRawTimesToTimeSpan()
     {
         PlatformerTimeConverted = TimeSpan.FromSeconds(HighScores.PlatformerHighScore);
+        ZombieTimeConverted = TimeSpan.FromSeconds(HighScores.ZombieShooterHighScore);
         Track1BestConverted = TimeSpan.FromSeconds(HighScores.BestTimes["Track1"]);
         Track2BestConverted = TimeSpan.FromSeconds(HighScores.BestTimes["Track2"]);
         Track3BestConverted = TimeSpan.FromSeconds(HighScores.BestTimes["Track3"]);
