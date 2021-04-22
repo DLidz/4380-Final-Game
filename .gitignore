@@ -63,3 +63,7 @@ Final Game CSI 4380/Library/ArtifactDB
 Final Game CSI 4380/Library/SourceAssetDB
 Final Game CSI 4380/Library/ArtifactDB
 Final Game CSI 4380/Library/SourceAssetDB
+*.dwlt
+*.dwlt
+*.json
+*.txt
