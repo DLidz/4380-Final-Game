@@ -13,7 +13,7 @@ public class MainMenuController : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI PlatFormerHighScore;
     [SerializeField]
-    private TextMeshProUGUI SpaceShooterHighScore;
+    private TextMeshProUGUI ZombieShooterHighScore;
     [SerializeField]
     private TextMeshProUGUI BreakoutHighScore;
 
@@ -48,7 +48,7 @@ public class MainMenuController : MonoBehaviour
     {
         ConvertRawTimesToTimeSpan();
         PlatFormerHighScore.SetText("Best Time: " + PlatformerTimeConverted.ToString("mm':'ss"));
-        SpaceShooterHighScore.SetText("High Score: " + HighScores.SpaceShooterHighScore);
+        ZombieShooterHighScore.SetText("High Score: " + HighScores.ZombieShooterHighScore);
         BreakoutHighScore.SetText("High Score: " + HighScores.BreakoutHighScore);
         Track1BestTime.SetText(Track1BestConverted.ToString("m':'ss':'ff"));
         Track2BestTime.SetText(Track2BestConverted.ToString("m':'ss':'ff"));

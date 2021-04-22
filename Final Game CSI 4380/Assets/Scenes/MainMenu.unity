@@ -343,7 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainMenu: {fileID: 10711806}
   PlatFormerHighScore: {fileID: 879572178}
-  SpaceShooterHighScore: {fileID: 1233092570}
+  ZombieShooterHighScore: {fileID: 1233092570}
   BreakoutHighScore: {fileID: 1348704564}
   RCRacingHighScoreMenu: {fileID: 2105465885}
   Track1BestTime: {fileID: 1799344525}

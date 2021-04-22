@@ -5,7 +5,7 @@ using UnityEngine;
 public static class HighScores
 {
     public static float PlatformerHighScore = 0;
-    public static float SpaceShooterHighScore = 0;
+    public static float ZombieShooterHighScore = 0;
     public static int BreakoutHighScore = 0;
     public static Dictionary<string, float> BestTimes = new Dictionary<string, float>() {
         {"Track1", 0f},
